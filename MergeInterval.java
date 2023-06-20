@@ -12,7 +12,7 @@ class Interval {
 public class MergeInterval {
     public static List<Interval> mergeIntervals(Interval[] intervals) {
         // write your code here.
-         int n = intervals.length;
+         //int n = intervals.length;
         ArrayList<Interval> ans = new ArrayList<Interval>();
         
         if(intervals.length == 0 || intervals == null) {
